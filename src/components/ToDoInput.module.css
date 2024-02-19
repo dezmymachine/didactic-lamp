@@ -1,0 +1,49 @@
+.inputbox {
+  position: absolute;
+  top: 17%;
+  width: 100%;
+  text-align: center;
+}
+
+.typeTask {
+  width: 68%;
+  height: 40px;
+  position: relative;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  max-width: 850px;
+}
+
+.createBtn {
+  background: #b636bb;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  position: absolute;
+  left: 72%;
+  top: 12%;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.createBtn:hover {
+  background: transparent;
+  color: #b636bb;
+  border: 1px solid #b636bb;
+}
+@media (min-width: 768px) {
+  h1 {
+    left: 18.2%;
+  }
+  .createBtn {
+    left: 74.8%;
+  }
+}
